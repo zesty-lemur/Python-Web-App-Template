@@ -1,6 +1,6 @@
 # Web App Template
 
-Created with ❤️ by [Zesty Lemur](https://github.com/zesty-lemur/)
+Created with ❤️ by [Zesty Lemur](https://github.com/zesty-lemur/) - [Licensed](https://github.com/zesty-lemur/Web-App-Template/blob/main/LICENSE) under GNU GPLv3.
 
 ## What is this?
 
