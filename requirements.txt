@@ -1,0 +1,6 @@
+Flask==2.1.2
+Flask-Talisman==0.8.1
+Flask-Limiter==2.4.4
+psycopg2-binary==2.9.3
+redis==4.2.2
+bootstrap-flask==2.0.3
