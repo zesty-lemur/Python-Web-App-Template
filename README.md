@@ -7,8 +7,8 @@ Template repo for secure web apps
 1. Clone the repo:
 
 ```bash
-git clone <repository-url>
-cd <repository-url> <app-name>
+git clone https://github.com/zesty-lemur/Web-App-Template
+cd https://github.com/zesty-lemur/Web-App-Template <app-name>
 ```
 
 2. Run the setup script:
