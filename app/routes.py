@@ -1,7 +1,8 @@
-from flask import render_template
-from app.models import db, User
+from flask import Blueprint, render_template
+from models import db, User
 
-def init_routes(app):
-    @app.route('/')
-    def home():
-        return render_template('home.html', title='Home')
+rbp = Blueprint('rbp', __name__)
+
+@rbp.route('/')
+def home():
+    return render_template('home.html', title='Home')
