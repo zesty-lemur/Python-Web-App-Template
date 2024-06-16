@@ -1,16 +1,27 @@
+<!-- Jinja2 - Extends base.html -->
 {% extends "base.html" %}
-
+<!-- Jinja2 Block - Body Content -->
 {% block content %}
-<div class="container-fluid justify-content-center align-items-center g-2 p-5">
-  <div class="row justify-content-center align-items-center g-2 p-5">
-    <div class="col">
-      <h1>Welcome to the Web-App-Template!</h1>
-    </div>
+<!-- Jumbotron -->
+<div class="mx-5 p-5 bg-success text-white rounded">
+  <h1 class="display-4 text-center fw-semibold">Hooray, you've got a basic web-app!</h1>
+</div>
+<!-- Basic Grid -->
+<div class="container mt-5">
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col text-center display-6">This is how the project is structured:</div>
+    <div class="col"></div>
+    <div class="col text-center display-6">What next?</div>
   </div>
-  <div class="row justify-content-center align-items-center g-2 p-5">
-    <div class="col">
-      <img src="{{ url_for('static', filename='media/project_structure.png') }}" alt="Project Structure" height="400px">
-    </div>
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col"></div>
+    <div class="col"></div>
+    <div class="col text-center">Check out the <a class="btn btn-primary" href="https://github.com/zesty-lemur/Web-App-Template/blob/main/README.md">README</a> of course!</div>
+  </div>
+  <div class="row justify-content-center align-items-center g-2">
+    <div class="col"><img src="../static/media/project_structure.png" class="img-fluid" alt="Project Structured" width="800px"/></div>
+    <div class="col"></div>
+    <div class="col"></div>
   </div>
 </div>
 {% endblock %}

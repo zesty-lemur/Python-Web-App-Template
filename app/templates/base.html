@@ -1,32 +1,53 @@
 <!doctype html>
 <html lang="en">
-
+<!-- Head Begins -->
   <head>
+    <!-- Jinja2 Block - Head Content -->
     {% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <!-- Jinja2 Block - Styles -->
     {% block styles %}
       <!-- Bootstrap CSS -->
       {{ bootstrap.load_css() }}
     {% endblock %}
-
+    <!-- Jinja2 Placeholder - Page Title -->
     <title>{{ title }}</title>
-
     {% endblock %}
   </head>
-
+  <!-- Body Begins -->
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark px-5">
-      <a class="navbar-brand" href="#">App</a>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-dark sticky-top bg-dark px-5">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://github.com/zesty-lemur">
+        <img src="../static/media/zesty-lemur.jpg" class="img-fluid rounded-pill" alt="Zesty Lemur" width="40px" />
+        App Name
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse " id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-
-      {% block content %}{% endblock %}
-
-      {% block scripts %}
-        <!-- Optional JavaScript -->
-        {{ bootstrap.load_js() }}
-      {% endblock %}
-
+    <!-- Jinja2 Block - Body Content -->
+    {% block content %}{% endblock %}
+    <!-- Jinja2 Block - Scripts -->
+    {% block scripts %}
+      <!-- Optional JavaScript -->
+      {{ bootstrap.load_js() }}
+    {% endblock %}
   </body>
 </html>
