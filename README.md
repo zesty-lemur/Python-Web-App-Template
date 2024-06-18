@@ -1,10 +1,10 @@
 # Web App Template
 
-Created with ❤️ by [Zesty Lemur](https://github.com/zesty-lemur/)
+Created with ❤️ by [Zesty Lemur](https://github.com/zesty-lemur/) - [Licensed](https://github.com/zesty-lemur/Web-App-Template/blob/main/LICENSE) under GNU GPLv3.
 
 ## What is this?
 
-This is template repository for a containerised Flask web-app complete with persistent PostgreSQL database, Nginx reverse-proxy, and Redis in-memory database for rate-limiting.
+This is template repository for a containerised Flask application complete with persistent PostgreSQL database, Nginx reverse-proxy, and Redis in-memory database for rate-limiting. As an added bonus, it even includes Bootstrap5, ready to go!
 
 You can clone the repo, generate your self-signed SSL certificates, and deploy the app using the setup-script in mere minutes!
 
