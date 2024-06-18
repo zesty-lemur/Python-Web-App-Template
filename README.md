@@ -52,6 +52,6 @@ Thanks to the magic of `tree` and [Carbon](https://carbon.now.sh/), you can view
 
 ## Can I contribute?
 
-Please do! You can [join the discussion](https://github.com/zesty-lemur/Web-App-Template/discussions), create a [pull request](https://github.com/zesty-lemur/Web-App-Template/pulls)*, or just share the repo!
+Please do! You can [join the discussion](https://github.com/zesty-lemur/Web-App-Template/discussions), create an [Issue](https://github.com/zesty-lemur/Web-App-Template/issues) or [Pull Request](https://github.com/zesty-lemur/Web-App-Template/pulls)*, or just share the repo!
 
 <super><small>* bonus points for the funniest commit messages!</small></super>
