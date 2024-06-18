@@ -6,6 +6,7 @@
     {% block head %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="{{ url_for('statc', 'media/favicon.ico') }}">
     <!-- Jinja2 Block - Styles -->
     {% block styles %}
       <!-- Bootstrap CSS -->
@@ -21,7 +22,7 @@
     <nav class="navbar navbar-dark sticky-top bg-dark px-5">
       <div class="container-fluid">
         <a class="navbar-brand" href="https://github.com/zesty-lemur">
-        <img src="../static/media/zesty-lemur.jpg" class="img-fluid rounded-pill" alt="Zesty Lemur" width="40px" />
+        <img src="{{ url_for('statc', 'media/logo.png') }}" class="img-fluid rounded-pill" alt="Zesty Lemur" width="40px" />
         App Name
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
